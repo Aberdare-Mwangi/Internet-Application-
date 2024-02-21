@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+    button{
+       background-color: #4CAF50; 
+border:none ;
+height: 30px;
+width: 85px;
+font-family: verdana;
+font-style: italic;
+font-size: large;
+cursor: pointer;
+border-radius: 5px;
+    }
+    
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <h1>My TODO List</h1>
+  <form id="todo-form">
+    <input type="text" id="newTask" placeholder="Add a task...">
+    <button type="submit" id="submit">SUBMIT</button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+  <script src="task.js"></script>
+</body>
+</html>
